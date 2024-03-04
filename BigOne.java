@@ -1,6 +1,8 @@
+import java.util.Date;
+
 public class BigOne {
-    public static void main(String[] args) {
-        int age = 18;
-        System.out.print(age);
+    public static void main(String[] args){
+    Date today=new Date();
+        System.out.println(today);
     }
 }
